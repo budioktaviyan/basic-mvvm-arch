@@ -7,6 +7,7 @@
                                                    tools:context=".MainActivity">
 
   <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar_main"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:background="@color/white"
@@ -14,4 +15,24 @@
       app:layout_constraintTop_toTopOf="parent"
       app:title="@string/app_name"
       app:titleTextColor="@color/black" />
+
+  <TextView
+      android:id="@+id/tv_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:textColor="@color/black"
+      android:textSize="18sp"
+      app:layout_constraintTop_toBottomOf="@id/toolbar_main"
+      tools:text="Name" />
+
+  <TextView
+      android:id="@+id/tv_age"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      app:layout_constraintTop_toBottomOf="@id/tv_name"
+      tools:text="Age" />
 </androidx.constraintlayout.widget.ConstraintLayout>

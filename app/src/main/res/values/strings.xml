@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Basic MVVM Arch</string>
+  <string name="text_name">My name is %1$s</string>
+  <string name="text_age">I am %1$d</string>
 </resources>
